@@ -6,10 +6,10 @@ This repository contains the automated test suite for the E-commerce platform as
 - **Language:** Python 3.10+
 - **Framework:** Playwright (Pytest-based)
 - [cite_start]**Why Playwright?** We chose Playwright for its superior auto-waiting capabilities and stability, which effectively mitigate flaky tests in fast-moving environments[cite: 14, 84].
-- **Testing Strategy:** A hybrid approach. [cite_start]We use UI-level automation for core user journeys (Login, Add to Cart) to ensure purchase intent is trackable[cite: 13, 83].
+- **Testing Strategy:** A hybrid approach. We use UI-level automation for core user journeys (Login, Add to Cart) to ensure purchase intent is trackable[cite: 13, 83].
 
 ## 🚀 How to Run Tests (Docker)
-This project is fully containerized to allow consistent execution[cite: 73, 85].
+This project is fully containerized to allow consistent execution.
 
 1. **Build and Run:**
    ```bash
