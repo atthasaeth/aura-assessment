@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  qa-test:
+    build: .
+    ipc: host
+    environment:
+      - BASE_URL=https://www.saucedemo.com
+    volumes:
+      - ./:/app
+    command: pytest --html=report.html --self-contained-html --slowmo 500
