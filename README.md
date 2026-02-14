@@ -9,7 +9,7 @@ This repository contains the automated test suite for the E-commerce platform as
 - **Testing Strategy:** A hybrid approach. [cite_start]We use UI-level automation for core user journeys (Login, Add to Cart) to ensure purchase intent is trackable[cite: 13, 83].
 
 ## 🚀 How to Run Tests (Docker)
-[cite_start]This project is fully containerized to allow consistent execution[cite: 73, 85].
+This project is fully containerized to allow consistent execution[cite: 73, 85].
 
 1. **Build and Run:**
    ```bash
